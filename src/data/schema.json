@@ -1,0 +1,12 @@
+{
+    "Time period of study": "Refers to information about the timing of the study, including beginning and end date, total duration, timing, and duration of fieldwork. Usually found in the Abstract/Introduction/Methods sections.",
+    "Location of study": "Refers to information about the physical setting, coordinates, geographical location, and name of country/city. Usually found in the Abstract/Introduction/Methods sections.",
+    "Ecosystem": "Refers to information describing the ecosystem of the study or where the species is present, including type of ecosystem, land use history, abiotic conditions, and sometimes location with descriptors. Usually found in the Methods sections.",
+    "Focal object": "Refers to the species discussed in the study.",
+    "Method": "Refers to the type of study and its conditions, including whether it is an experiment, fieldwork, or survey, and the number/types of samples and variables measured.",
+    "Research questions": "Refers to the problems or questions addressed, including research gaps. Usually found in the last part of the Introduction/Method sections.",
+    "Main hypothesis and corresponding results": "Refers to the hypotheses and theories posed by the authors and the main outcomes/results of the study. Usually found in the Results/Discussion sections.",
+    "Causal statements": "Refers to statements that clearly depict a cause-effect relationship. These do not have a designated location and may not appear in every text.",
+    "Recommendations and suggestions": "Refers to statements not backed by evidence or results, based on the authors' conclusions or knowledge. Also includes suggestions to alter methods. Usually found in the Discussion section."
+  }
+  
