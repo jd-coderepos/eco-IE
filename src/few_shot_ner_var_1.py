@@ -39,11 +39,15 @@ Perform Named Entity Recognition (NER) for scientific text. For each entity, ass
 - Do NOT label any person, author, research group, organization, or any list of names as an entity.
 
 Example 1:
-Text: "The trial ran from May to July 2021 in alpine meadows at 2,500 m elevation. We measured nitrogen uptake in Festuca ovina across ten plots. Uptake rates doubled under warmer nighttime temperatures."
+Text: "The trial ran from May to July 2021 in alpine meadows at 2,500 m elevation.
+We measured nitrogen uptake in Festuca ovina across ten plots.
+Uptake rates doubled under warmer nighttime temperatures."
 Entities: {{"May to July 2021": "Timeperiodofstudy", "alpine meadows at 2,500 m elevation": "Locationofstudy", "Festuca ovina": "Focalpoint", "warmer nighttime temperatures": "Ecosystem","measured nitrogen uptake in Festuca ovina across ten plots": "Method", "Uptake rates doubled under warmer nighttime temperatures": "Mainhypothesisandcorrespondingresults"}}
 
 Example 2:
-Text: "Our goal was to assess whether fire frequency influences tree regeneration in boreal forests. We surveyed seedling counts in burned and unburned sites over five years. Frequent burns reduced sapling density by 60 percent."
+Text: "Our goal was to assess whether fire frequency influences tree regeneration in boreal forests. 
+We surveyed seedling counts in burned and unburned sites over five years. 
+Frequent burns reduced sapling density by 60 percent."
 Entities: {{"assess whether fire frequency influences tree regeneration": "Researchquestions","boreal forests": "Ecosystem","surveyed seedling counts in burned and unburned sites over five years": "Method","Frequent burns reduced sapling density by 60 percent": "Causalstatements","five years": "Timeperiodofstudy"}}
 
 Example 3:  

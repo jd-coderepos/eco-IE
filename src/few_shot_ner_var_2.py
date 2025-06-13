@@ -39,19 +39,27 @@ Perform Named Entity Recognition (NER) for scientific text. For each entity, ass
 - Do NOT label any person, author, research group, organization, or any list of names as an entity.
 
 Example 1:
-Text: "The trial ran from May to July 2021 in alpine meadows at 2,500 m elevation. We measured nitrogen uptake in Festuca ovina across ten plots. Uptake rates doubled under warmer nighttime temperatures."
+Text: "The trial ran from May to July 2021 in alpine meadows at 2,500 m elevation. 
+We measured nitrogen uptake in Festuca ovina across ten plots.
+Uptake rates doubled under warmer nighttime temperatures."
 Entities: {{"May to July 2021": "Timeperiodofstudy", "alpine meadows at 2,500 m elevation": "Locationofstudy", "Festuca ovina": "Focalpoint", "warmer nighttime temperatures": "Ecosystem","measured nitrogen uptake in Festuca ovina across ten plots": "Method", "Uptake rates doubled under warmer nighttime temperatures": "Mainhypothesisandcorrespondingresults"}}
 
 Example 2:
-Text: "Our goal was to assess whether fire frequency influences tree regeneration in boreal forests. We surveyed seedling counts in burned and unburned sites over five years. Frequent burns reduced sapling density by 60 percent."
+Text: "Our goal was to assess whether fire frequency influences tree regeneration in boreal forests. 
+We surveyed seedling counts in burned and unburned sites over five years.
+Frequent burns reduced sapling density by 60 percent."
 Entities: {{"assess whether fire frequency influences tree regeneration": "Researchquestions","boreal forests": "Ecosystem","surveyed seedling counts in burned and unburned sites over five years": "Method","Frequent burns reduced sapling density by 60 percent": "Causalstatements","five years": "Timeperiodofstudy"}}
 
 Example 3:  
-Text: "In September 2018, soil moisture sensors were deployed along the Mississippi Delta coastline. Moisture readings were logged hourly for six months. Elevated moisture correlated with increased erosion rates."
+Text: "In September 2018, soil moisture sensors were deployed along the Mississippi Delta coastline. 
+Moisture readings were logged hourly for six months. 
+Elevated moisture correlated with increased erosion rates."
 Entities: {{"September 2018": "Timeperiodofstudy","Mississippi Delta coastline": "Locationofstudy","soil moisture sensors": "Method","elevated moisture correlated with increased erosion rates": "Causalstatements","six months": "Timeperiodofstudy"}}
 
 Example 4:  
-Text: "Based on our findings, we suggest planting mixed-species buffers to enhance riparian bird diversity. This study did not measure buffer longevity. Future experiments should evaluate seasonal variation in habitat use."
+Text: "Based on our findings, we suggest planting mixed-species buffers to enhance riparian bird diversity. 
+This study did not measure buffer longevity. 
+Future experiments should evaluate seasonal variation in habitat use."
 Entities: {{"we suggest planting mixed-species buffers to enhance riparian bird diversity": "Reccomendationsandsuggestions","riparian bird diversity": "Researchquestions","mixed-species buffers": "Method","seasonal variation in habitat use": "Researchquestions"}}
 
 Respond with a JSON dictionary mapping each entity to its label, e.g.: {{"Entity": "Label", ...}}
