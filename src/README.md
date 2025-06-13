@@ -19,6 +19,14 @@ This repository contains the implementation of a Named Entity Recognition (NER) 
     - Advanced reasoning for ambiguous or multi-step tasks.
     - Robust handling of intricate relationships between entities.
 
+### Few-Shot Prompting Model
+- **Model Name**: Qwen-2.5 14B Instruct
+- **Purpose**: Performs few-shot NER tasks by leveraging a small number of labeled examples to improve entity recognition accuracy.
+- **Features**:
+    - Combines pre-trained knowledge with task-specific examples.
+    - Flexible and adaptable to various domains.
+    - Enhanced performance compared to zero-shot scenarios.
+
 ## Features
 - Zero-shot entity recognition using Qwen-2.5 14B Instruct.
 - Reasoning-based entity classification using Qwen-3 14B.
@@ -30,7 +38,7 @@ This repository contains the implementation of a Named Entity Recognition (NER) 
 1. Clone the repository:
      ```bash
      git clone https://github.com/jd-coderepos/eco-IE.git
-     cd IE_Project
+     cd src
      ```
 
 2. Install dependencies:
@@ -52,6 +60,18 @@ Run the reasoning model for entity classification:
 python reasoning_ner.py 
 ```
 
+### Few-Shot Variants 1,2,3 NER
+Run the few-shot model for entity classification:
+```bash
+python few_shot_new_var_1.py
+```
+```bash
+python few_shot_new_var_2.py
+```
+```bash
+python few_shot_new_var_3.py
+```
+
 ## Project Structure
 - `data/test`: Contains input and sample datasets.
 - `README.md`: Project documentation.
@@ -60,4 +80,4 @@ python reasoning_ner.py
 Contributions are welcome! Please submit a pull request or open an issue for any suggestions or improvements.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [APACHE LICENSE](../LICENSE).
