@@ -15,8 +15,8 @@
 1-5	27-44	laboratory_reared	_	_	_	_	_	_	_
 1-6	45-56	long_spined	_	_	_	_	_	_	_
 1-7	57-60	sea	_	_	_	_	_	_	_
-1-8	61-76	urchinsÊDiadema	_	_	_	_	_	_	_
-1-9	77-91	antillarumÊdue	_	_	_	_	_	_	_
+1-8	61-76	urchinsÊDiadema	_	*[1]	_	_	_	_	_
+1-9	77-91	antillarumÊdue	_	*[1]	_	_	_	_	_
 1-10	92-94	to	_	_	_	_	_	_	_
 1-11	95-102	Spanish	_	_	_	_	_	_	_
 1-12	103-119	hogfishÊBodianus	_	_	_	_	_	_	_
@@ -132,10 +132,10 @@
 6-5	616-627	long_spined	_	_	_	_	_	_	_
 6-6	628-631	sea	_	_	_	_	_	_	_
 6-7	632-638	urchin	_	_	_	_	_	_	_
-6-8	639-646	Diadema	_	_	_	_	_	_	_
-6-9	647-660	antillarumÊin	_	_	_	_	_	_	_
+6-8	639-646	Diadema	_	*[2]	_	_	_	_	_
+6-9	647-660	antillarumÊin	_	*[2]	_	_	_	_	_
 6-10	661-664	the	_	_	_	_	_	_	_
-6-11	665-670	1980s	_	_	_	_	_	_	*[1]
+6-11	665-670	1980s	_	_	_	_	_	_	_
 6-12	671-682	highlighted	_	_	_	_	_	_	_
 6-13	683-686	its	_	_	_	_	_	_	_
 6-14	687-694	crucial	_	_	_	_	_	_	_
@@ -145,11 +145,11 @@
 6-18	705-712	primary	_	_	_	_	_	_	_
 6-19	713-719	grazer	_	_	_	_	_	_	_
 6-20	720-722	in	_	_	_	_	_	_	_
-6-21	723-731	tropical	*[2]	_	_	_	_	_	_
-6-22	732-739	western	*[2]	_	_	_	_	_	_
-6-23	740-748	Atlantic	*[2]	_	_	_	_	_	_
-6-24	749-754	coral	*[2]	_	_	_	_	_	_
-6-25	755-760	reefs	*[2]	_	_	_	_	_	_
+6-21	723-731	tropical	_	_	_	_	_	_	_
+6-22	732-739	western	_	_	_	_	_	_	_
+6-23	740-748	Atlantic	_	_	_	_	_	_	_
+6-24	749-754	coral	_	_	_	_	_	_	_
+6-25	755-760	reefs	_	_	_	_	_	_	_
 6-26	760-761	.	_	_	_	_	_	_	_
 
 #Text=However, natural recovery has been slow, exacerbated by a new die_off in 2022.
@@ -167,7 +167,7 @@
 7-12	820-823	new	_	_	_	_	_	_	_
 7-13	824-831	die_off	_	_	_	_	_	_	_
 7-14	832-834	in	_	_	_	_	_	_	_
-7-15	835-839	2022	_	_	_	_	_	_	*[3]
+7-15	835-839	2022	_	_	_	_	_	_	_
 7-16	839-840	.	_	_	_	_	_	_	_
 
 #Text=Interest in actively restoringÊD.
@@ -242,10 +242,10 @@
 12-2	1253-1257	this	_	_	_	_	_	_	_
 12-3	1258-1263	study	_	_	_	_	_	_	_
 12-4	1264-1268	near	_	_	_	_	_	_	_
-12-5	1269-1273	Saba	_	_	*[4]	_	_	_	_
-12-6	1273-1274	,	_	_	*[4]	_	_	_	_
-12-7	1275-1284	Caribbean	_	_	*[4]	_	_	_	_
-12-8	1285-1296	Netherlands	_	_	*[4]	_	_	_	_
+12-5	1269-1273	Saba	_	_	*[3]	_	_	_	_
+12-6	1273-1274	,	_	_	*[3]	_	_	_	_
+12-7	1275-1284	Caribbean	_	_	*[3]	_	_	_	_
+12-8	1285-1296	Netherlands	_	_	*[3]	_	_	_	_
 12-9	1296-1297	,	_	_	_	_	_	_	_
 12-10	1298-1300	we	_	_	_	_	_	_	_
 12-11	1301-1309	released	_	_	_	_	_	_	_
@@ -274,8 +274,8 @@
 15-3	1444-1447	and	_	_	_	_	_	_	_
 15-4	1448-1459	interaction	_	_	_	_	_	_	_
 15-5	1460-1463	for	_	_	_	_	_	_	_
-15-6	1464-1466	35	_	_	_	_	_	_	_
-15-7	1467-1471	days	_	_	_	_	_	_	_
+15-6	1464-1466	35	_	_	_	_	_	_	*[4]
+15-7	1467-1471	days	_	_	_	_	_	_	*[4]
 15-8	1471-1472	.	_	_	_	_	_	_	_
 
 #Text=Only 40% of the urchins were still present on the reef after day one.
@@ -438,8 +438,8 @@
 23-15	2369-2377	increase	_	_	_	_	_	_	_
 23-16	2378-2387	retention	_	_	_	_	_	_	_
 23-17	2388-2390	of	_	_	_	_	_	_	_
-23-18	2391-2408	restockedÊDiadema	_	_	_	_	_	_	_
-23-19	2409-2419	antillarum	_	_	_	_	_	_	_
+23-18	2391-2408	restockedÊDiadema	_	*[5]	_	_	_	_	_
+23-19	2409-2419	antillarum	_	*[5]	_	_	_	_	_
 23-20	2419-2420	.	_	_	_	_	_	_	_
 
 #Text=Sites with high Spanish hogfish or queen triggerfish abundances should be avoided unless temporal predator control is possible.
@@ -497,22 +497,22 @@
 
 #Text=* Laboratory_reared sea urchins should be acclimated in a protected semi_natural environment before restocking to increase survival.
 27-1	2737-2738	*	_	_	_	_	_	_	_
-27-2	2739-2756	Laboratory_reared	_	_	_	_	_	*[5]	_
-27-3	2757-2760	sea	_	_	_	_	_	*[5]	_
-27-4	2761-2768	urchins	_	_	_	_	_	*[5]	_
-27-5	2769-2775	should	_	_	_	_	_	*[5]	_
-27-6	2776-2778	be	_	_	_	_	_	*[5]	_
-27-7	2779-2789	acclimated	_	_	_	_	_	*[5]	_
-27-8	2790-2792	in	_	_	_	_	_	*[5]	_
-27-9	2793-2794	a	_	_	_	_	_	*[5]	_
-27-10	2795-2804	protected	_	_	_	_	_	*[5]	_
-27-11	2805-2817	semi_natural	_	_	_	_	_	*[5]	_
-27-12	2818-2829	environment	_	_	_	_	_	*[5]	_
-27-13	2830-2836	before	_	_	_	_	_	*[5]	_
-27-14	2837-2847	restocking	_	_	_	_	_	*[5]	_
-27-15	2848-2850	to	_	_	_	_	_	*[5]	_
-27-16	2851-2859	increase	_	_	_	_	_	*[5]	_
-27-17	2860-2868	survival	_	_	_	_	_	*[5]	_
+27-2	2739-2756	Laboratory_reared	_	_	_	_	_	_	_
+27-3	2757-2760	sea	_	_	_	_	_	_	_
+27-4	2761-2768	urchins	_	_	_	_	_	_	_
+27-5	2769-2775	should	_	_	_	_	_	_	_
+27-6	2776-2778	be	_	_	_	_	_	_	_
+27-7	2779-2789	acclimated	_	_	_	_	_	_	_
+27-8	2790-2792	in	_	_	_	_	_	_	_
+27-9	2793-2794	a	_	_	_	_	_	_	_
+27-10	2795-2804	protected	_	_	_	_	_	_	_
+27-11	2805-2817	semi_natural	_	_	_	_	_	_	_
+27-12	2818-2829	environment	_	_	_	_	_	_	_
+27-13	2830-2836	before	_	_	_	_	_	_	_
+27-14	2837-2847	restocking	_	_	_	_	_	_	_
+27-15	2848-2850	to	_	_	_	_	_	_	_
+27-16	2851-2859	increase	_	_	_	_	_	_	_
+27-17	2860-2868	survival	_	_	_	_	_	_	_
 27-18	2868-2869	.	_	_	_	_	_	_	_
 
 #Text=*
@@ -712,8 +712,8 @@
 35-54	3964-3967	the	_	_	_	_	_	_	_
 35-55	3968-3979	long_spined	_	_	_	_	_	_	_
 35-56	3980-3983	sea	_	_	_	_	_	_	_
-35-57	3984-3998	urchinÊDiadema	_	_	_	_	_	_	_
-35-58	3999-4012	antillarumÊin	_	_	_	_	_	_	_
+35-57	3984-3998	urchinÊDiadema	_	*[6]	_	_	_	_	_
+35-58	3999-4012	antillarumÊin	_	*[6]	_	_	_	_	_
 
 #Text=the 1980s (Lessios et alÊ1984).
 36-1	4013-4016	the	_	_	_	_	_	_	_
@@ -1253,10 +1253,10 @@
 60-11	6762-6765	the	_	_	_	_	_	_	_
 60-12	6766-6772	island	_	_	_	_	_	_	_
 60-13	6773-6775	of	_	_	_	_	_	_	_
-60-14	6776-6780	Saba	_	_	_	_	_	_	_
-60-15	6780-6781	,	_	_	_	_	_	_	_
-60-16	6782-6791	Caribbean	_	_	_	_	_	_	_
-60-17	6792-6803	Netherlands	_	_	_	_	_	_	_
+60-14	6776-6780	Saba	_	_	*[7]	_	_	_	_
+60-15	6780-6781	,	_	_	*[7]	_	_	_	_
+60-16	6782-6791	Caribbean	_	_	*[7]	_	_	_	_
+60-17	6792-6803	Netherlands	_	_	*[7]	_	_	_	_
 60-18	6803-6804	.	_	_	_	_	_	_	_
 
 #Text=Laboratory_rearedÊD antillarumÊwere released onto a patch reef and closely monitored for retention, migration, and predation during a period of 5 weeks.
@@ -1388,13 +1388,13 @@
 #Text=Experimental Setup Diadema antillarumÊRearing In total 200 juvenileÊDiadema antillarumÊsea urchins were reared for the restocking experiment, for 30% originating from larval cultivation and for 70% from settlers collected from the wild.
 67-1	7558-7570	Experimental	_	_	_	_	_	_	_
 67-2	7571-7576	Setup	_	_	_	_	_	_	_
-67-3	7577-7584	Diadema	_	_	_	_	_	_	_
-67-4	7585-7603	antillarumÊRearing	_	_	_	_	_	_	_
+67-3	7577-7584	Diadema	_	*[8]	_	_	_	_	_
+67-4	7585-7603	antillarumÊRearing	_	*[8]	_	_	_	_	_
 67-5	7604-7606	In	_	_	_	_	_	_	_
 67-6	7607-7612	total	_	_	_	_	_	_	_
 67-7	7613-7616	200	_	_	_	_	_	_	_
-67-8	7617-7633	juvenileÊDiadema	_	_	_	_	_	_	_
-67-9	7634-7648	antillarumÊsea	_	_	_	_	_	_	_
+67-8	7617-7633	juvenileÊDiadema	_	*[9]	_	_	_	_	_
+67-9	7634-7648	antillarumÊsea	_	*[9]	_	_	_	_	_
 67-10	7649-7656	urchins	_	_	_	_	_	_	_
 67-11	7657-7661	were	_	_	_	_	_	_	_
 67-12	7662-7668	reared	_	_	_	_	_	_	_
@@ -1432,10 +1432,10 @@
 68-7	7828-7832	took	_	_	_	_	_	_	_
 68-8	7833-7838	place	_	_	_	_	_	_	_
 68-9	7839-7841	on	_	_	_	_	_	_	_
-68-10	7842-7846	Saba	_	_	_	_	_	_	_
-68-11	7846-7847	,	_	_	_	_	_	_	_
-68-12	7848-7857	Caribbean	_	_	_	_	_	_	_
-68-13	7858-7869	Netherlands	_	_	_	_	_	_	_
+68-10	7842-7846	Saba	_	_	*[10]	_	_	_	_
+68-11	7846-7847	,	_	_	*[10]	_	_	_	_
+68-12	7848-7857	Caribbean	_	_	*[10]	_	_	_	_
+68-13	7858-7869	Netherlands	_	_	*[10]	_	_	_	_
 68-14	7869-7870	,	_	_	_	_	_	_	_
 68-15	7871-7880	following	_	_	_	_	_	_	_
 68-16	7881-7884	the	_	_	_	_	_	_	_
@@ -2113,8 +2113,8 @@
 95-15	11234-11238	that	_	_	_	_	_	_	_
 95-16	11239-11242	was	_	_	_	_	_	_	_
 95-17	11243-11252	restocked	_	_	_	_	_	_	_
-95-18	11253-11265	withÊDiadema	_	_	_	_	_	_	_
-95-19	11266-11279	antillarumÊat	_	_	_	_	_	_	_
+95-18	11253-11265	withÊDiadema	_	*[11]	_	_	_	_	_
+95-19	11266-11279	antillarumÊat	_	*[11]	_	_	_	_	_
 95-20	11280-11284	dive	_	_	_	_	_	_	_
 95-21	11285-11293	location	_	_	_	_	_	_	_
 95-22	11294-11301	Torrens	_	_	_	_	_	_	_
@@ -2206,8 +2206,8 @@
 #Text=Figure 2 RestockedÊDiadema antillarumÊare hiding in cervices on the experimental reef on day 1.
 99-1	11664-11670	Figure	_	_	_	_	_	_	_
 99-2	11671-11672	2	_	_	_	_	_	_	_
-99-3	11673-11690	RestockedÊDiadema	_	_	_	_	_	_	_
-99-4	11691-11705	antillarumÊare	_	_	_	_	_	_	_
+99-3	11673-11690	RestockedÊDiadema	_	*[12]	_	_	_	_	_
+99-4	11691-11705	antillarumÊare	_	*[12]	_	_	_	_	_
 99-5	11706-11712	hiding	_	_	_	_	_	_	_
 99-6	11713-11715	in	_	_	_	_	_	_	_
 99-7	11716-11724	cervices	_	_	_	_	_	_	_
@@ -2259,8 +2259,8 @@
 101-1	11914-11924	Restocking	_	_	_	_	_	_	_
 101-2	11925-11927	On	_	_	_	_	_	_	_
 101-3	11928-11930	10	_	_	_	_	_	_	_
-101-4	11931-11938	January	_	_	_	_	_	_	_
-101-5	11939-11943	2023	_	_	_	_	_	_	_
+101-4	11931-11938	January	_	_	_	_	_	_	*[13]
+101-5	11939-11943	2023	_	_	_	_	_	_	*[13]
 101-6	11944-11945	(	_	_	_	_	_	_	_
 101-7	11945-11948	day	_	_	_	_	_	_	_
 101-8	11949-11950	0	_	_	_	_	_	_	_
@@ -3533,8 +3533,8 @@
 167-33	18138-18145	hogfish	_	_	_	_	_	_	_
 167-34	18146-18157	interacting	_	_	_	_	_	_	_
 167-35	18158-18162	with	_	_	_	_	_	_	_
-167-36	18163-18172	aÊDiadema	_	_	_	_	_	_	_
-167-37	18173-18183	antillarum	_	_	_	_	_	_	_
+167-36	18163-18172	aÊDiadema	_	*[14]	_	_	_	_	_
+167-37	18173-18183	antillarum	_	*[14]	_	_	_	_	_
 167-38	18183-18184	,	_	_	_	_	_	_	_
 167-39	18185-18190	score	_	_	_	_	_	_	_
 167-40	18191-18192	2	_	_	_	_	_	_	_
@@ -4044,8 +4044,8 @@
 187-2	20756-20757	.	_	_	_	_	_	_	_
 
 #Text=Diadema antillarumÊRetention After the first night, on day 1, retention on the restocked reef was 41.7 +/_ 25.7% (average +/_ SD; FigÊ4).
-188-1	20758-20765	Diadema	_	_	_	_	_	_	_
-188-2	20766-20786	antillarumÊRetention	_	_	_	_	_	_	_
+188-1	20758-20765	Diadema	_	*[15]	_	_	_	_	_
+188-2	20766-20786	antillarumÊRetention	_	*[15]	_	_	_	_	_
 188-3	20787-20792	After	_	_	_	_	_	_	_
 188-4	20793-20796	the	_	_	_	_	_	_	_
 188-5	20797-20802	first	_	_	_	_	_	_	_
@@ -4086,8 +4086,8 @@
 189-5	20907-20910	two	_	_	_	_	_	_	_
 189-6	20911-20920	quadrants	_	_	_	_	_	_	_
 189-7	20921-20924	had	_	_	_	_	_	_	_
-189-8	20925-20937	zeroÊDiadema	_	_	_	_	_	_	_
-189-9	20938-20952	antillarumÊand	_	_	_	_	_	_	_
+189-8	20925-20937	zeroÊDiadema	_	*[16]	_	_	_	_	_
+189-9	20938-20952	antillarumÊand	_	*[16]	_	_	_	_	_
 189-10	20953-20956	two	_	_	_	_	_	_	_
 189-11	20957-20966	quadrants	_	_	_	_	_	_	_
 189-12	20967-20970	had	_	_	_	_	_	_	_
@@ -4158,8 +4158,8 @@
 #Text=Figure 4 RecoveredÊDiadema antillarumÊas percentage of total number of restockedÊD.
 195-1	21286-21292	Figure	_	_	_	_	_	_	_
 195-2	21293-21294	4	_	_	_	_	_	_	_
-195-3	21295-21312	RecoveredÊDiadema	_	_	_	_	_	_	_
-195-4	21313-21326	antillarumÊas	_	_	_	_	_	_	_
+195-3	21295-21312	RecoveredÊDiadema	_	*[17]	_	_	_	_	_
+195-4	21313-21326	antillarumÊas	_	*[17]	_	_	_	_	_
 195-5	21327-21337	percentage	_	_	_	_	_	_	_
 195-6	21338-21340	of	_	_	_	_	_	_	_
 195-7	21341-21346	total	_	_	_	_	_	_	_
@@ -4186,8 +4186,8 @@
 196-15	21424-21429	total	_	_	_	_	_	_	_
 196-16	21430-21436	period	_	_	_	_	_	_	_
 196-17	21437-21439	of	_	_	_	_	_	_	_
-196-18	21440-21442	35	_	_	_	_	_	_	_
-196-19	21443-21447	days	_	_	_	_	_	_	_
+196-18	21440-21442	35	_	_	_	_	_	_	*[18]
+196-19	21443-21447	days	_	_	_	_	_	_	*[18]
 196-20	21447-21448	.	_	_	_	_	_	_	_
 
 #Text=*At the end of day 3, quadrants 2 and 4, received 10 additionalÊD.
@@ -4699,8 +4699,8 @@
 
 #Text=Table 3.ÊDiadema antillarumÊpredator interactions scored by divers during the day and night, total number of interactions, and number of interactions per hours of observation.
 220-1	24052-24057	Table	_	_	_	_	_	_	_
-220-2	24058-24068	3.ÊDiadema	_	_	_	_	_	_	_
-220-3	24069-24088	antillarumÊpredator	_	_	_	_	_	_	_
+220-2	24058-24068	3.ÊDiadema	_	*[19]	_	_	_	_	_
+220-3	24069-24088	antillarumÊpredator	_	*[19]	_	_	_	_	_
 220-4	24089-24101	interactions	_	_	_	_	_	_	_
 220-5	24102-24108	scored	_	_	_	_	_	_	_
 220-6	24109-24111	by	_	_	_	_	_	_	_
@@ -5031,8 +5031,8 @@
 
 #Text=Table 4.ÊDiadema antillarumÊpredator interactions scored by photographic analyses, both day and night, total number of interactions, and number of interactions per hours of observation.
 239-1	25607-25612	Table	_	_	_	_	_	_	_
-239-2	25613-25623	4.ÊDiadema	_	_	_	_	_	_	_
-239-3	25624-25643	antillarumÊpredator	_	_	_	_	_	_	_
+239-2	25613-25623	4.ÊDiadema	_	*[20]	_	_	_	_	_
+239-3	25624-25643	antillarumÊpredator	_	*[20]	_	_	_	_	_
 239-4	25644-25656	interactions	_	_	_	_	_	_	_
 239-5	25657-25663	scored	_	_	_	_	_	_	_
 239-6	25664-25666	by	_	_	_	_	_	_	_
@@ -5253,8 +5253,8 @@
 256-1	26502-26509	Overall	_	_	_	_	_	_	_
 256-2	26510-26519	retention	_	_	_	_	_	_	_
 256-3	26520-26522	of	_	_	_	_	_	_	_
-256-4	26523-26540	restockedÊDiadema	_	_	_	_	_	_	_
-256-5	26541-26554	antillarumÊin	_	_	_	_	_	_	_
+256-4	26523-26540	restockedÊDiadema	_	*[21]	_	_	_	_	_
+256-5	26541-26554	antillarumÊin	_	*[21]	_	_	_	_	_
 
 #Text=this research was low, with less than 5% of the urchins recovered after 9 days and only two of a total of 200 after 35 days.
 257-1	26555-26559	this	_	_	_	_	_	_	_
@@ -5283,8 +5283,8 @@
 257-24	26658-26660	of	_	_	_	_	_	_	_
 257-25	26661-26664	200	_	_	_	_	_	_	_
 257-26	26665-26670	after	_	_	_	_	_	_	_
-257-27	26671-26673	35	_	_	_	_	_	_	_
-257-28	26674-26678	days	_	_	_	_	_	_	_
+257-27	26671-26673	35	_	_	_	_	_	_	*[22]
+257-28	26674-26678	days	_	_	_	_	_	_	*[22]
 257-29	26678-26679	.	_	_	_	_	_	_	_
 
 #Text=Spanish hogfish were identified as the main diurnal predator, with nine successful attacks recorded through a combination of stationary cameras and diver observations.
