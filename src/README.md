@@ -27,6 +27,17 @@ This repository contains the implementation of a Named Entity Recognition (NER) 
     - Flexible and adaptable to various domains.
     - Enhanced performance compared to zero-shot scenarios.
 
+### Fine-Tuning Model
+- **Model Name**: Qwen-2.5 14B Instruct
+- **Purpose**: Fine-tuned using Parameter-Efficient Fine-Tuning (PEFT) to adapt the model for specific NER tasks.
+- **Features**:
+    - Retains pre-trained knowledge while adapting to new datasets.
+- **Methodology**:
+    - Utilized PEFT techniques to fine-tune the model on labeled dataset.
+    - Focused on optimizing task-specific performance without overfitting.
+- **Use Case**:
+    - Ideal for scenarios requiring enhanced accuracy in specialized domains.
+
 ## Features
 - Zero-shot entity recognition using Qwen-2.5 14B Instruct.
 - Reasoning-based entity classification using Qwen-3 14B.
@@ -70,6 +81,22 @@ python few_shot_new_var_2.py
 ```
 ```bash
 python few_shot_new_var_3.py
+```
+### Fine-Tuning NER
+Before running the fine-tuning script, ensure that the dataset is created using the TSV files located in `src/data/train`. Use the following command to preprocess the data:
+
+```bash
+python preprocess_webanno_split.py
+```
+Run the fine-tuning script to adapt the model for specific NER tasks:
+```bash
+python fine_tuning_qwen_v2.py
+```
+
+### Inference on Fine-Tuned Model
+Run the inference script to perform NER using the fine-tuned model:
+```bash
+python run_inference_ner.py
 ```
 
 ## Project Structure
