@@ -2,3 +2,7 @@ transformers
 torch
 pandas
 spacy
+logging
+unicodedata
+peft
+datasets
