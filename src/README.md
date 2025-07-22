@@ -1,6 +1,6 @@
 # Named Entity Recognition Project
 
-This repository contains the implementation of a Named Entity Recognition (NER) system, leveraging advanced zero-shot and reasoning models for entity extraction and classification. The project is designed to handle complex scenarios where labeled data is scarce, using state-of-the-art models for zero-shot learning and reasoning.
+This repository contains the implementation of a Named Entity Recognition (NER) system, leveraging advanced zero-shot and reasoning models for entity extraction and classification. The project is designed to handle complex scenarios where labeled data is scarce, using state-of-the-art models for zero-shot & few-shot learning and reasoning.
 
 ## Models Used
 
