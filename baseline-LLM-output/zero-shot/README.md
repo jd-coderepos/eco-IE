@@ -2,6 +2,6 @@
 
 ## Features
 
-- Zero-shot NER using Qwen-2.5 14B Instruct.
+- Zero-shot NER using Qwen/Qwen-2.5-14B-Instruct.
 - Flexible and adaptable to various text domains.
 
